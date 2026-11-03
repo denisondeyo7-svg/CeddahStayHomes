@@ -2,8 +2,8 @@
 function C2a() {
     return (
         <>
-            <h2>Ceddah Stay Homes</h2>
-            <h1>Where comfort meets community, and students feel right at home.</h1>
+            <h2 className="heros-headlines">Ceddah Stay Homes</h2>
+            <h1 className="heros-headlines">Where comfort meets community, and students feel right at home.</h1>
 
         
             <br />

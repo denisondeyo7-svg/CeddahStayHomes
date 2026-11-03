@@ -10,8 +10,8 @@ function Navbar() {
                 <div className="links">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
-                    <a href="">Testimonials</a>
-                    <a href="">Contact</a>
+                    <a href="#Testimonials">Testimonials</a>
+                    <a href="#Contact">Contact</a>
                 </div>
                 <div className="menubtn">
                     <i className="fas fa-bars"></i>

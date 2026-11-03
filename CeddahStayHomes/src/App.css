@@ -9,7 +9,7 @@ html{
   scroll-behavior: smooth;
 }
 header{
-  background: #000;
+  background: #007;
   position: fixed;
   top: 0;
   width: 100%;
@@ -36,6 +36,7 @@ header{
 }
 
 .header-content .logo h2{
+  color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header-content .logo h2:hover{
@@ -124,6 +125,9 @@ button{
   background: #33333377;
 }
 
+.heros-headlines{
+  color: #fff;
+}
 .content h1
 {
   line-height: 110%;
@@ -166,10 +170,10 @@ button{
 
 .whatsapp{
   position: fixed;
-  left: 22px;
+  right: 22px;
   bottom: 25px;
   box-shadow:  0 0 10px  #222;
-  background: #666;
+  background: rgb(17, 170, 35);
   border-radius: 50%;
   height: 3rem;
   width: 3rem;
@@ -195,6 +199,13 @@ button{
   
 }
 
+.den{
+  color: #007bff;
+  
+}
+
+.contact,
+.Testimonials-container,
 .about{
   display: flex;
   flex-direction: column;
@@ -204,6 +215,8 @@ button{
   background: #f8f3e9;
 }
 
+.contact h1 ,
+.Testimonials-container h1,
 .about h1{
   color: #000;
 }
@@ -237,39 +250,177 @@ button{
   flex-direction: column;
   gap: 12px;
   padding: 15px;
-  width: 20rem;
-  height: 18rem;
+  width: 22rem;
+  height: auto;
   flex-grow: 1;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid #fad694;
   transition: .3s ease;
 }
 
+.title-wrapper{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
 
+.title-wrapper i{
+  color: #000;
+  background: #99999941;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  font-size: 22px;
+}
 .about-card p{
   color: #555;
 }
 
 
 
+.testimonials-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+}
+
+.testimonials-wrapper h2{
+  color: #000;
+  margin: 12px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.testimonial-card-container{
+  width: 90%;
+  display: flex;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-card{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  margin: 12px;
+  width: 22rem;
+  min-width: 250px;
+  border-radius: 8px;
+  background: #fff;
+  flex-grow: 1;
+  box-shadow:  0 0 10px #999;
+  animation: scroll 12s linear infinite;
+}
+
+
+@keyframes scroll {
+  from{transform: translateX(-20%);}
+  to{transform: translateX(-200%);}
+}
+.details .name{
+  color: #333;
+  font-weight: 550
+}
+
+.details .position{
+  color: #555;
+}
+
+.message{
+  color: #555;
+}
+
+.image{
+  display: flex;
+  align-self: flex-end;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 
 
+.contact-wrapper{
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.contact-card1{
+  width: 500px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+.contact-card1 h1{
+  line-height: 110%;
+}
 
+.contact-card1 i{
+  color: #333;
+  font-size: 44px;
+}
 
+.contact-card2{
+  flex-grow: 1;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+.contact-card2 form{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+.contact-card2 form .input{
+  width: 90%;
 
+}
+.contact-card2 form #message,
+.contact-card2 form input{
+width: 100%;
+background: transparent;
+border: 1px solid #999999b9;
+padding: 18px;
+color: #000;
+outline: none;
+border-radius: 5px;
+transition: .3s ease;
+}
 
+.contact-card2 form #message{
+  height: 5rem;
+}
 
+.contact-card2 form #message:focus,
+.contact-card2 form input:focus{
+border: 1px solid #007bff;
 
+}
 
-
-
-
-
+#sendmessagebtn{
+  padding: 10px;
+  background: #007;
+}
 
 
 
