@@ -10,7 +10,7 @@ function Testimonials() {
     ]
     return (
         <div className="Testimonials-container">
-            <br /><br />
+            <br /><br /><br />
             <h1>Testim<span className="den">onials</span></h1>
 
             <div className="testimonials-wrapper">

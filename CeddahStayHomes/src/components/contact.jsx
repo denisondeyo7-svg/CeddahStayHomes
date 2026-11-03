@@ -2,7 +2,7 @@
 function Contactdetails() {
     return (
         <div className="contact">
-            <br /><br />
+            <br /><br /><br /><br />
             <h1>Need to <span className="den">Talk?</span></h1>
 
             <div className="contact-wrapper">
