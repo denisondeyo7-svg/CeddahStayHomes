@@ -2,7 +2,7 @@
 function C2a() {
     return (
         <>
-            <h1 className="heros-headlines1"><i>Ceddah Stay <span>Homes</span></i></h1>
+            <h1 className="heros-headlines1"><span>Ceddah Stay Homes</span></h1>
             <h2 className="heros-headlines">Where comfort meets community, and students feel right at home.</h2>
 
         

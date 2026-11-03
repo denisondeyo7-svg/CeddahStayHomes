@@ -4,6 +4,7 @@ import IndexPage from './IndexPage'
 import About from './About'
 import Testimonies from './Testimonies'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       <About/>
       <Testimonies/>
       <Contact/>
-      
+      <Footer/>
     </>
   )
 }

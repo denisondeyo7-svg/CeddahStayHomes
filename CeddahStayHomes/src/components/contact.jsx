@@ -7,7 +7,7 @@ function Contactdetails() {
 
             <div className="contact-wrapper">
                 <div className="contact-card1">
-                    <h1>Find us through the following channels</h1>
+                    <h1>Find us through the following channels :</h1>
 
                     <div className="channels">
                         <i className="fab fa-whatsapp"></i>
@@ -40,6 +40,7 @@ function Contactdetails() {
                     </form>
                 </div>
             </div>
+            <br /><br />
         </div>
     );
 }

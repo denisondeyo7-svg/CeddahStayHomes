@@ -9,7 +9,7 @@ html{
   scroll-behavior: smooth;
 }
 header{
-  background: #007;
+  background: #1a2e38;
   position: fixed;
   top: 0;
   width: 100%;
@@ -157,16 +157,32 @@ button{
 .heros-headlines{
   color: #fff;
   width: 90%;
+  animation: fade .6s ease ;
+  animation-delay: 1.2s;
 }
 
 .heros-headlines1{
   color: #fff;
   width: 90%;
+  word-spacing: 12px;
+  animation: fade .6s ease ;
+  animation-delay: .5s;
 }
 
+
+@keyframes fade {
+  from{opacity: .5;
+        transform: translateY(25px);
+      }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .heros-headlines1 span{
   font-family: serif;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 .content h1
 {
@@ -305,11 +321,11 @@ button{
 }
 
 .title-wrapper i{
-  color: #000;
+  color: rgba(245, 35, 35, 0.849);
   background: #99999941;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
-  border: 1px solid #333;
+  border: 1px solid #555;
   font-size: 22px;
 }
 .about-card p{
@@ -336,7 +352,7 @@ button{
 .testimonial-card-container{
   width: 90%;
   display: flex;
-  overflow-x: auto;
+  overflow-x:auto;
   align-items: center;
   justify-content: center;
 }
@@ -429,8 +445,9 @@ button{
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 22px;
 }
+
 
 .contact-card2 form h2{
   color: #333;
@@ -464,16 +481,57 @@ border: 1px solid #007bff;
 
 #sendmessagebtn{
   padding: 10px;
+  border: none;
   background: #007;
+  border-radius: 8px;
+  width: 50%;
 }
 
 
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  background: #1a2e38;
+  position: relative;
+  top: auto;
+}
+
+footer small{
+  color: #a7a2a2;
+}
+.mainfooter{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 90%;
+  width: 100%;
+  padding: 10px;
+  gap: 22px;
+  
+}
 
 
+.footer-links{
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 
-
-
-
+.footer-links h2{
+  color: goldenrod;
+  
+}
+.subfooter{
+  padding: 10px;
+  border-top: 1px solid #a7a2a2;
+  color: #d8d5d5;
+  width: 90%;
+  text-align: center;
+}
 
 
 @media screen and  (max-width:360px) {
@@ -511,5 +569,9 @@ border: 1px solid #007bff;
   .menubtn,
   .menu{
     display: block !important;
+  }
+
+  .mainfooter{
+    grid-template-columns: repeat(1,1fr);
   }
 }

@@ -37,16 +37,16 @@ export default function ScrollToTopButton() {
             left: '40px',
             padding: '10px 15px',
             fontSize: '16px',
-            backgroundColor: '#007bff',
-            color: '#fff',
-            border: 'none',
+            backgroundColor: '#fad694',
+            color: '#000',
+            border: '1px solid #000',
             borderRadius: '5px',
             cursor: 'pointer',
             boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
             zIndex: 1000
           }}
         >
-          ↑ Top
+          <i className='fas fa-arrow-up'></i> Scroll to Top
         </button>
       )}
     </div>
