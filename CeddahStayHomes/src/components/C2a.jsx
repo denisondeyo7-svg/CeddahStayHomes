@@ -2,8 +2,8 @@
 function C2a() {
     return (
         <>
-            <h2 className="heros-headlines">Ceddah Stay Homes</h2>
-            <h1 className="heros-headlines">Where comfort meets community, and students feel right at home.</h1>
+            <h1 className="heros-headlines1"><i>Ceddah Stay <span>Homes</span></i></h1>
+            <h2 className="heros-headlines">Where comfort meets community, and students feel right at home.</h2>
 
         
             <br />
@@ -11,6 +11,8 @@ function C2a() {
                 <button id="getstarted">Get Started</button>
                 <button id="contact">Contact Us</button>
             </div>
+            <br />
+                <small className="developer">Developed By <a href="https://denovatech.wuaze.com/">Denis</a></small>
 
             <div className="whatsapp">
                

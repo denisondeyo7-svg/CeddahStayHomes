@@ -34,7 +34,7 @@ export default function ScrollToTopButton() {
           style={{
             position: 'fixed',
             bottom: '40px',
-            right: '40px',
+            left: '40px',
             padding: '10px 15px',
             fontSize: '16px',
             backgroundColor: '#007bff',

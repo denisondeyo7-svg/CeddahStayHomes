@@ -153,9 +153,20 @@ button{
   height: 100%;
   background: #33333377;
 }
-
+.developer,
 .heros-headlines{
   color: #fff;
+  width: 90%;
+}
+
+.heros-headlines1{
+  color: #fff;
+  width: 90%;
+}
+
+.heros-headlines1 span{
+  font-family: serif;
+  text-decoration: underline;
 }
 .content h1
 {
@@ -203,7 +214,7 @@ button{
   bottom: 25px;
   box-shadow:  0 0 10px  #222;
   background: rgb(17, 170, 35);
-  border-radius: 50%;
+  border-radius: 20px;
   height: 3rem;
   width: 3rem;
   display: flex;
@@ -465,7 +476,30 @@ border: 1px solid #007bff;
 
 
 
+@media screen and  (max-width:360px) {
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
 
+  }
+
+  .buttons button{
+    width: 100% !important;
+    flex-grow: 1;
+  }
+
+  .contact-card2{
+    width: 300px !important;
+    
+  }
+
+  .contact-card2 form{
+
+    width: 90%;
+  }
+}
 
 
 
